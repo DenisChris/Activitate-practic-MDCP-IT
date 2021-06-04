@@ -1,6 +1,4 @@
-<p>Student: Denis Chris Isac.</p>
-
-<h2>Welcome!.</h2>
+<h2>Student: Denis Chris Isac.</h2>
 
 <!DOCTYPE html>
 <html>
@@ -32,9 +30,9 @@ function getCookie(cname) {
 function checkCookie() {
   var user=getCookie("username");
   if (user != "") {
-    alert("Welcome again " + user);
+    alert("Welcome back " + user + "!" + " We saved your name first time you opened this page.");
   } else {
-     user = prompt("Please enter your name:","");
+     user = prompt("We have cookies! Please enter your name:","");
      if (user != "" && user != null) {
        setCookie("username", user, 30);
      }
