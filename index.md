@@ -13,6 +13,14 @@
 
 <button onclick="findOS()">Which OS do I use?</button>
 
+.inline {
+   display:inline-block;
+   margin-right:5px;
+}
+
+<input type="button" class="inline" onclick="findOS()" value="Which OS do I use?">
+<input type="button" class="inline" id="slide_stop_button"  value="Stop">
+
 <p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
 
 <form action="https://didatec-my.sharepoint.com/:w:/r/personal/isac_so_denis_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7BB4A0B665-0AA5-40A8-942C-416F45721109%7D&file=Lab%202%20GDPR%20Meza.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1622782396683&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=8abaf963-ff60-4f49-b6e2-08fa61a3a423">
