@@ -15,7 +15,7 @@
 
 <p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
 
-<form action="https://didatec-my.sharepoint.com/:w:/r/personal/marcu_il_roxana_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7B3FEEABF5-AE23-41DF-8C7B-9BAC0327C8D5%7D&file=dpia-template.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1622731579392&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=3e707c61-f3c9-4bfe-b7b5-5ecf2d393718">
+<form action="https://didatec-my.sharepoint.com/:w:/r/personal/isac_so_denis_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7BB4A0B665-0AA5-40A8-942C-416F45721109%7D&file=Lab%202%20GDPR%20Meza.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1622782396683&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=8abaf963-ff60-4f49-b6e2-08fa61a3a423">
     <input type="submit" value="DPIA" />
 </form>
 <script>
