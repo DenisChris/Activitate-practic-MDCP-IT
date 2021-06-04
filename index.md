@@ -13,13 +13,19 @@
 
 <button onclick="findOS()">Which OS do I use?</button>
 
-.inline {
-   display:inline-block;
-   margin-right:5px;
-}
-
 <input type="button" class="inline" onclick="findOS()" value="Which OS do I use?">
-<input type="button" class="inline" id="slide_stop_button"  value="Stop">
+<input type="button" class="inline" id="example"  value="More Info">
+
+<div id="example"></div>
+<script type="text/javascript">
+txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+txt+= "<p>Browser Name: " + navigator.appName + "</p>";
+txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
+txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+txt+= "<p>Platform: " + navigator.platform + "</p>";
+txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
+document.getElementById("example").innerHTML=txt;
+</script>
 
 <p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
 
