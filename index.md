@@ -11,11 +11,11 @@
 <p align="justify">Pentru orice asistență cu privire la respectarea drepturilor cu privire la datele cu caracter personal în instituția noastră, vă puteți adresa acestui birou: date.personale@staff.utcluj.ro , telefon +40 264 401 309, web: www.datepersonale.utcluj.ro. La nivel național respectarea drepturilor persoanelor cu privire la datele cu caracter personal este monitorizată de Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal, www.dataprotection.ro.
 </p>
 
-<input type="button" class="inline" onclick="findOS()" value="Which OS do I use?">
+<input type="button" class="inline" onclick="findOS()" value="What OS do I use?">
 
 <p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
 
-<input type="button" onclick="location.href='https://didatec-my.sharepoint.com/:w:/r/personal/isac_so_denis_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7B25634E6D-3F6D-487D-8A53-BE91635A5E73%7D&file=dpia-template%20(2).docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1622811367322&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=aad6b59d-cc4e-4fef-8861-a7920c053092';" value="Go to DPIA" />
+<input type="button" onclick="location.href='https://didatec-my.sharepoint.com/:w:/g/personal/isac_so_denis_utcluj_didatec_ro/EW1OYyVtP31IilO-kWNaXnMBHhmWMq72B8NWx52OPrZuig?email=Meza.Serban%40utcluj.didatec.ro&e=p8P5mX';" value="Go to DPIA" />
 
 <script>
 function findOS(){ 
