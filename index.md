@@ -11,12 +11,10 @@
 <p align="justify">Pentru orice asistență cu privire la respectarea drepturilor cu privire la datele cu caracter personal în instituția noastră, vă puteți adresa acestui birou: date.personale@staff.utcluj.ro , telefon +40 264 401 309, web: www.datepersonale.utcluj.ro. La nivel național respectarea drepturilor persoanelor cu privire la datele cu caracter personal este monitorizată de Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal, www.dataprotection.ro.
 </p>
 
-<button onclick="findOS()">Which OS do I use?</button>
-
 <input type="button" class="inline" onclick="findOS()" value="Which OS do I use?">
-<input type="button" class="inline" id="example"  value="More Info">
+<input type="button" class="inline" onclick="showDiv()" value="Click for more info">
 
-<div id="example"></div>
+<div id="example">
 <script type="text/javascript">
 txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
 txt+= "<p>Browser Name: " + navigator.appName + "</p>";
@@ -25,6 +23,18 @@ txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
 txt+= "<p>Platform: " + navigator.platform + "</p>";
 txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
 document.getElementById("example").innerHTML=txt;
+</script>
+</div>
+
+<script>
+function showDiv() {
+  var x = document.getElementById("example");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
 
 <p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
