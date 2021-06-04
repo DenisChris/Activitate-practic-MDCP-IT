@@ -12,34 +12,10 @@
 </p>
 
 <input type="button" class="inline" onclick="findOS()" value="Which OS do I use?">
-<input type="button" class="inline" onclick="showDiv()" value="Click for more info">
-
-<div id="example">
-<script type="text/javascript">
-txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-txt+= "<p>Browser Name: " + navigator.appName + "</p>";
-txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
-txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
-txt+= "<p>Platform: " + navigator.platform + "</p>";
-txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
-document.getElementById("example").innerHTML=txt;
-</script>
-</div>
-
-<script>
-function showDiv() {
-  var x = document.getElementById("example");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
 <p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
 
-<input type="button" onclick="location.href='https://didatec-my.sharepoint.com/:w:/g/personal/isac_so_denis_utcluj_didatec_ro/EW1OYyVtP31IilO-kWNaXnMBHhmWMq72B8NWx52OPrZuig?email=Isac.So.Denis%40utcluj.didatec.ro&e=svoCvG';" value="Go to DPIA" />
+<input type="button" onclick="location.href='https://didatec-my.sharepoint.com/:w:/r/personal/isac_so_denis_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7B25634E6D-3F6D-487D-8A53-BE91635A5E73%7D&file=dpia-template%20(2).docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1622811367322&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=aad6b59d-cc4e-4fef-8861-a7920c053092';" value="Go to DPIA" />
 
 <script>
 function findOS(){ 
