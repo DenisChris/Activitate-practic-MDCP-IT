@@ -12,6 +12,9 @@
 </p>
 
 <button onclick="findOS()">Which OS do I use?</button>
+
+<p style="color:red;">Apasă butonul de mai jos pentru a naviga la analiza de impact asupra protecției datelor personale:.</p>
+
 <form action="https://didatec-my.sharepoint.com/:w:/r/personal/marcu_il_roxana_utcluj_didatec_ro/_layouts/15/Doc.aspx?sourcedoc=%7B3FEEABF5-AE23-41DF-8C7B-9BAC0327C8D5%7D&file=dpia-template.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1622731579392&wdOrigin=OFFICECOM-WEB.START.OTHER&cid=3e707c61-f3c9-4bfe-b7b5-5ecf2d393718">
     <input type="submit" value="DPIA" />
 </form>
